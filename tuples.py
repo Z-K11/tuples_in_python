@@ -21,3 +21,8 @@ tup =tuple1 + ("Dwayne the rock jhonson","tom")
 print(tup)
 # Tuples can also be sliced 
 print(f"Printhing the 2nd,3rd and 4th element of the tuple {tup[2:5]}")
+print(f"To obtain length of the tuple use len(x), the length is  {len(tup)}")
+# A tuple can also be sorted 
+tupele = (5,2,7,5,1,2,8,5,4,1,2,0,9,8,5)
+tupele = sorted(tupele)
+print(tupele)
