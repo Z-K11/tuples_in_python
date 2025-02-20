@@ -16,3 +16,6 @@ print(f"Type of third element of the tuple {type(tuple1[2])}")
 print(f"Accessing the first element of the tuple using negative index {tuple1[-3]}")
 print(f"Accessing the second element of the tuple using negative index {tuple1[-2]}")
 print(f"Accessing the third element of the tuple using negative index {tuple1[-1]}")
+# Tuples can be concatenated and combined using the "+" signt
+tup =tuple1 + ("Dwayne the rock jhonson","tom")
+print(tup)
