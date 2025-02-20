@@ -43,3 +43,6 @@ print("Element 3, 0 of Tuple: ",   NestedT[3][0])
 print("Element 3, 1 of Tuple: ",   NestedT[3][1])
 print("Element 4, 0 of Tuple: ",   NestedT[4][0])
 print("Element 4, 1 of Tuple: ",   NestedT[4][1])
+print(NestedT[2][1][0])
+# Here we are dealing with the idea that a string can be dealt as a list of 
+# characters 
