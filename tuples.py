@@ -19,3 +19,5 @@ print(f"Accessing the third element of the tuple using negative index {tuple1[-1
 # Tuples can be concatenated and combined using the "+" signt
 tup =tuple1 + ("Dwayne the rock jhonson","tom")
 print(tup)
+# Tuples can also be sliced 
+print(f"Printhing the 2nd,3rd and 4th element of the tuple {tup[2:5]}")
